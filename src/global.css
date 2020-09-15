@@ -1,0 +1,80 @@
+.row {
+  margin: 1rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+#col1 {
+  margin-left: 1rem;
+  margin-right: 0.2rem;
+  padding: 0px;
+}
+
+#col2 {
+  margin-left: 0.2rem;
+  padding: 0px;
+}
+#col3 {
+  padding: 0px;
+  margin-left: 2rem;
+}
+#btn1 {
+  margin-left: 1rem;
+}
+#img1 {
+  width: 600px;
+}
+.flex-container {
+  display: flex;
+}
+
+#cont {
+  position: relative;
+}
+
+#text1 {
+  position: absolute;
+  z-index: 1;
+  top: 10rem;
+  left: 8rem;
+}
+#text2 {
+  position: absolute;
+  z-index: 1;
+  top: 12rem;
+  left: 8rem;
+  
+}
+#text3 {
+  position: absolute;
+  z-index: 1;
+  top: 18rem;
+  left: 22rem;
+}
+#text4 {
+  position: absolute;
+  z-index: 1;
+  top: 30rem;
+  left: 26rem;
+}
+
+#img2{
+
+    
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 16.5rem;
+    left: 26rem;
+}
+
+#img3{
+
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 16.5rem;
+    left: 26rem;
+}
