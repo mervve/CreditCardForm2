@@ -87,23 +87,41 @@ const btn= document.getElementById("btn1");
 
 img1.style.visibility="hidden";
 img2.style.visibility="hidden";
-/* const currentDate= new Date();
-lastMonth.value=currentDate.getMonth(); */
+
+ 
 
 
+ btn.addEventListener("click", function(){
 
+  console.log("btn çalışıyor");
+  
+  const text=document.getElementById("name");
 
- btn.addEventListener("submit", send);
-
-function send(){
+  console.log(text.value);
+  
+  //const regex = /^[a-z]{2,}(\s[a-z]{2,})/;
+  //const regex = /^[a-z|A-Z]{2,}\s+[a-z|A-Z]{2,}/;
+  const regex = /^\D{2,}\s+\D{2,}/;
   
 
-    if(isNameEmpty==false && isNumberEmpty==false && isMonthEmpty==false && isYearEmpty==false && isCvcEmpty==false )
-    {
-     
-    }
+  
 
-} 
+  if(regex.test(text.value)){
+    alert("hata yok")
+  }
+  else{
+    alert("lütfen isim ve soyisminizi kontrol edin!")
+  }
+ 
+
+ });
+
+
+
+  
+   
+
+ 
 
 name.addEventListener("keyup", function () {
   var card = new Card(
